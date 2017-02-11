@@ -1,3 +1,4 @@
 "Road To Foxborough" by Avery Serna
 
-Example Location is a room. 
+Outsideroom is a room. Printed name is "Outside"
+
