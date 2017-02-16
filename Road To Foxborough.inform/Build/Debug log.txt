@@ -14,7 +14,7 @@ Reading language definition from </Users/aserna17/Desktop/Inform.app/Contents/Re
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 14 words long.
+I've now read your source text, which is 179 words long.
 
 
 -----------------------------------------------------
@@ -175,7 +175,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 101 files written as streams.
-CPU time: 198 centiseconds
+CPU time: 200 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

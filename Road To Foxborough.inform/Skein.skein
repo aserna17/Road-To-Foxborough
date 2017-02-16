@@ -4,7 +4,62 @@
     <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
     <item nodeId="node-1223">
         <command xml:space="preserve">Road To Foxborough</command>
-        <result xml:space="preserve"></result>
+        <result xml:space="preserve">
+
+
+Road To Foxborough
+An Interactive Fiction by Avery Serna
+Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Outside
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+            <child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You see nothing special about the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">enter door</command>
+        <result xml:space="preserve">(first opening the door)
+You can't, since the door leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't, since the door leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">enter door</command>
+        <result xml:space="preserve">You can't, since the door leads nowhere.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
