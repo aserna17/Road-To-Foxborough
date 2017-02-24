@@ -9,9 +9,12 @@
 
 Road To Foxborough
 An Interactive Fiction by Avery Serna
-Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Outside
+Congratulations! You were the #1 overall pick in the draft to the New England Patriots! You survived training camp and were signed to a 5 year $100,000,000 contract. You are the future of this franchise.
+
+Just ahead of you is the Gillette Stadium. The new season starts today so get to the locker room and prepare yourself for tonight's game against the Falcons. Good Luck!.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -40,10 +43,12 @@ You can't, since the door leads nowhere.
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
+You walk into a hallway. Straight ahead is a graphic of the phrase DO YOUR JOB! plastered on the wall. The hallway continues to the East and West.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1236"></child>
+            <child nodeId="node-1229"></child>
         </children>
     </item>
     <item nodeId="node-1229">
@@ -58,6 +63,144 @@ Hallway
     <item nodeId="node-1230">
         <command xml:space="preserve">enter door</command>
         <result xml:space="preserve">You can't, since the door leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+East Hallway
+The East Hall is full of framed pictures of past and present Patriots. To the north is a door leading to the Locker Room.
+
+You can see Pictures here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">x pictures</command>
+        <result xml:space="preserve">Here's a picture of Tom Brady mid drop. And here's Randy Moss and his one handed catch against the Jets. Over there is one of Rob Gronkowski doing his signature spike.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Southeast Locker Room
+Huge floor to ceiling open style, oak lockers line the perimeter of the room. The room is nearly divide into fourths by the same lockers, there are laundry carts scattered throughout the room and there is a huge space in the middle with the Patriots Logo.
+
+It's Malcom Butler!
+
+What's up Rookie. Excited? I was too before my first game. You should go get suited up over in the receiver corner.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+East Hallway
+The East Hall is full of framed pictures of past and present Patriots. To the north is a door leading to the Locker Room.
+
+You can see Pictures here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+You walk into a hallway. Straight ahead is a graphic of the phrase DO YOUR JOB! plastered on the wall. The hallway continues to the East and West.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+The West Hall, very similar ot the east, is also covered in photos of Patriots and newspaper headlines. To the north is the locker room.
+
+You can see Photos and Newspapers here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">x photos</command>
+        <result xml:space="preserve">Here is a photo of Deion Branch in Super Bowl 39. And there's one of Adam Vinatieri and his game winning kick in Super Bowl 36. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">x newspaper</command>
+        <result xml:space="preserve">All of the newspaper headlines from the Patriots Super Bowl wins are here. From 2002, 2004, 2005, 2015, and 2017.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">x newspapers</command>
+        <result xml:space="preserve">All of the newspaper headlines from the Patriots Super Bowl wins are here. From 2002, 2004, 2005, 2015, and 2017.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Southwest Locker Room
+Huge floor to ceiling open style, oak lockers line the perimeter of the room. The room is nearly divide into fourths by the same lockers, there are laundry carts scattered throughout the room and there is a huge space in the middle with the Patriots Logo.
+
+It's Dont'a Hightower!
+
+Hey rook, don't be late for warmups. Get to the receiver corner, Juls wanted to talk to you before you head out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Northwest Locker Room
+Huge floor to ceiling open style, oak lockers line the perimeter of the room. The room is nearly divide into fourths by the same lockers, there are laundry carts scattered throughout the room and there is a huge space in the middle with the Patriots Logo.
+
+Julian Edelman has appeared!!
+
+Hey kid come here a sec. Welcome to the receiver corner! Here's your locker. You'll find most of your things in here, otherwise try checking the equipment rooms. One more thing... We really need you today. Anything to win ... anything.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
