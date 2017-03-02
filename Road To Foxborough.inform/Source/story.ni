@@ -199,6 +199,25 @@ Rule for deciding whether all includes a person: it does not.
 Rule for deciding whether all includes something: it does not.
 [code courtesy of Inform Handbook by Jim Aikin]
 
+[task 1: Find Equipment:
+	North West Locker Room:
+		Gloves, Jersey, Game Pants
+	Equipment Room 1:
+		Shoes
+	Equipment Room 2:
+		Shoulderpads
+	QB Room:
+		Screwdriver that turns into helmet
+		
+task 2: Find Bill Belichick
+Bill is Tunnel and will give you the passcode psi125
+
+- use passcode in QB room
+
+- find falcon's playbook marked binder in falcon's locker room]
+
+
+
 
 
 
